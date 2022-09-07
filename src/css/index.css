@@ -1,0 +1,114 @@
+@import './variables.css';
+
+.wrapper {
+    max-width: var(--main-width-wrapper);
+    margin: 0 auto;
+}
+.header {
+    padding: 43px 0;
+    box-shadow: 0px 10px 30px 4px rgba(85, 105, 135, 0.03);
+    margin-bottom: 166px;
+}
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+}
+.header-logo {
+}
+.header-settings {
+    display: flex;
+    gap: 34px;
+}
+.header-settings li {
+    transition: 0.6s;
+}
+.header-settings li:hover {
+    transform: translateY(-5px);
+}
+.header-items {
+    display: flex;
+    align-items: center;
+    gap: 41px;
+}
+.header-items ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.suptitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.suptitle--title {
+    font-weight: 400;
+    font-size: 50px;
+    letter-spacing:-0.02em ;
+}
+.suptitle--price {
+    font-weight: 400;
+    font-size: 50px;
+    letter-spacing:-0.02em ;
+}
+.filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.filters-items {
+    border: none;
+    outline: none;
+    max-width: 258px;
+    width: 100%;
+    font-weight: 600;
+    font-size: 18px;
+}
+.filters-items option {
+
+}
+.card {
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card-item img {
+    max-width: 315px;
+}
+.card-info {
+    margin-top: 18px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.author span {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.2;
+}
+.author p {
+    font-weight: 400;
+    font-size: 18px
+}
+.ragination {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 40px;
+}
+.ragination-items button{
+    cursor: pointer;
+    padding: 18px 21px;
+    border: 1px solid #dfdfdf;
+    background: transparent;
+    text-align: center;
+}
+.ragination-items button:hover {
+    background: #000;
+}
+.ragination-info {
+    font-weight: 400;
+    font-size: 18px;
+    color: #959595;
+}
