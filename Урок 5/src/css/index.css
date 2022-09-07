@@ -3,10 +3,8 @@
     margin: 0 auto;
 }
 .header {
-    padding: 43px;
+    padding: 43px 0;
     box-shadow: 0px 10px 30px 4px rgba(85, 105, 135, 0.03)
-}
-.wrapper {
 }
 .header-nav {
     display: flex;
@@ -21,13 +19,106 @@
 .header-items {
     display: flex;
     align-items: center;
-    gap: 43px;
+    gap: 41px;
 }
 .header-items ul {
     display: flex;
-    align-items: center;
-    gap: 41px;
+    justify-content: center;
+    gap: 30px;
 }
-img {
-    cursor: pointer;
+.Header2 {
+    padding: 19px 0 20px;
+}
+.header-catalog {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 59px;
+}
+.catalog-names  {
+    display: flex;
+    gap: 86px;
+}
+.Artworks-name {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.search {
+    padding: 22px 0;
+}
+.search-nav {
+    display: flex;
+    justify-content: space-between;
+}
+.search-settins {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-icon {
+    padding: 0 30px 0 0;
+
+}
+.filter-tags {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.Clear {
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto';
+}
+.filter {
+
+}
+.filter-nav {
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Roboto';
+    font-weight: 600;
+    gap: 30px;
+}
+.category-filters {
+    width: 258px;
+    height: 27px;
+}
+.category-filters ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name-filter {
+    width: 278px;
+    height: 27px;
+}
+.name-filter ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Artworks-nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 28px;
+    max-width: 1349px;
+    font-family: 'Roboto';
+}
+#img {
+    width: 316.3px;
+}
+.saved-names {
+    padding-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.Pagination-nav {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 100px;
 }
