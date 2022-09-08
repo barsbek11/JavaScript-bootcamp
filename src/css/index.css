@@ -31,6 +31,9 @@
 .header {
     padding-bottom: 50px;
 }
+.header-logo {
+    cursor: pointer;
+}
 .header-names {
     display: flex;
     gap: 60px;
@@ -50,6 +53,7 @@
     font-family: 'Open Sans';
     font-weight: 700;
     color: #fff;
+    cursor: pointer;
 }
 .header-dashboard {
     display: flex;
@@ -74,7 +78,7 @@
 }
 #Web-App {
     color: #0082F3;
-    ;
+    cursor: pointer;
 }
 #dashboard {
     color: #29A0F5;
@@ -95,6 +99,7 @@
     font-family: 'Open Sans';
     font-size: 20px;
     font-weight: 700;
+    cursor: pointer;
 }
 .dashboard-nav{
     display: flex;
@@ -281,6 +286,8 @@
     gap: 58px;
     padding-top: 10px;
 }
+
+
 .Importand--Tools {
     display: flex;
     flex-direction: column;
@@ -388,7 +395,7 @@
     font-size: 20px;
     line-height: 20px;
     /* identical to box height, or 100% */
-
+    cursor: pointer;
     text-align: right;
     letter-spacing: 0.4px;
 
@@ -469,6 +476,7 @@
 .spaatz-logo {
     padding-top: 52px;
     padding-left: 30px;
+    cursor: pointer;
 }
 .spaatz-motto {
     padding-left: 30px;
@@ -524,4 +532,7 @@
 }
 .explore {
     padding-left: 70px;
+}
+#cursor {
+ cursor: pointer;
 }
