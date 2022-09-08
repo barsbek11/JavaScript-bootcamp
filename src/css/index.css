@@ -1,0 +1,527 @@
+@import './variables.css';
+
+.body {
+    margin: 0;
+}
+.wrapper {
+    max-width: var(--main-width-wrapper);
+    margin: 0 ;
+}
+
+.header--nav-items {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans' sans-serif;
+    background: url(../../assets/png/IMAGE.png), #29A0F5;
+    border-radius: 0px;
+    max-height: 715px;
+    width: 1340px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+
+}
+.header-items {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    gap: 120px;
+    padding-top: 40px;
+}
+.header {
+    padding-bottom: 50px;
+}
+.header-names {
+    display: flex;
+    gap: 60px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    width: 703px;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-button button {
+    padding: 16px 31px 19px;
+    box-sizing: border-box;
+    background: #1B2534;
+    border: 1px solid #1B2534;
+    border-radius: 17px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    color: #fff;
+}
+.header-dashboard {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 103px 0;
+}
+.header--dashboard-words {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 104px;
+    /* identical to box height, or 130% */
+
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #1B2534;
+}
+#Web-App {
+    color: #0082F3;
+    ;
+}
+#dashboard {
+    color: #29A0F5;
+}
+.header--dashboard-button {
+    padding-top: 46px;
+}
+.header--dashboard-button button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 232px;
+    height: 72px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-weight: 700;
+}
+.dashboard-nav{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 65px;
+    line-height: 78px;
+    /* or 120% */
+
+    text-transform: capitalize;
+
+    color: #1B2534;
+}
+.dashboard-info {
+    height: 558.03125px;
+    width: 645px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+
+}
+.dashboard {
+    padding-bottom: 180px;
+}
+#words {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    /* or 160% */
+
+    text-transform: capitalize;
+
+    color: #1B2534;
+    padding-top: 27px;
+}
+.Increase-Workflow {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.Increase-Workflow span {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 32px;
+    /* identical to box height, or 140% */
+
+
+    color: #1B2534;
+}
+.Increase-Workflow p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    /* identical to box height, or 160% */
+    margin: 10px 0;
+
+    color: #606060;
+}
+.dashboard--Increase-Workflow {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    padding-top: 27px;
+} 
+.dashboard--Secured-Structure {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    padding-top: 8px;
+}
+.Secured-Structure {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.Secured-Structure span {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 32px;
+    /* identical to box height, or 140% */
+
+
+    color: #1B2534;
+}
+.Secured-Structure p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    /* identical to box height, or 160% */
+    margin: 10px 0;
+
+    color: #606060 ;
+}
+.frame-nav {
+    display: flex;
+    gap: 40px;
+    background: #F6F6F6;
+    border-radius: 0px;
+    flex-direction: column;
+}
+.Capture {
+    height: 350px;
+    width: 645px;
+    left: 0px;
+    top: 20px;
+    border-radius: 0px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.Capture span {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 78px;
+    /* or 120% */
+
+    text-transform: capitalize;
+
+    color: #1B2534;
+
+}
+.Capture p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    /* or 160% */
+
+    text-transform: capitalize;
+
+    color: #1B2534;
+}
+.frame--nav-one {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.frame--nav-two {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+}
+.importand-tools {
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 244px;
+    max-width: 258px; 
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.06);
+    border-radius: 20px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 46px;
+    /* identical to box height, or 130% */
+    padding: 40px;
+
+    color: #1B2534;
+
+    left: 0px;
+    top: 43.015625px;
+
+}
+.importand--tools-icon {
+    display: flex;
+    gap: 58px;
+    padding-top: 10px;
+}
+.Importand--Tools {
+    display: flex;
+    flex-direction: column;
+}
+.frame-support {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 46px;
+    /* or 130% */
+    color: #1B2534;
+    padding-top: 49px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    
+}
+.frame--support {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.06);
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 20px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 46px;
+    /* identical to box height, or 130% */
+
+    color: #1B2534;
+
+    left: 0px;
+    top: 43.015625px;
+
+}
+#support-for img {
+    padding-right: 28px;
+}
+.monitor-growth {
+    padding: 20px 63px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.06);
+    border-radius: 20px;
+}
+.frame--nav-global {
+    display: flex;
+    justify-content: flex-start;
+    background: #161D2D;
+    border-radius: 33px;
+    height: 272px;
+    width: 843px;
+    left: 0px;
+    top: 0.015625px;
+}
+.frame--nav-global div img {
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.06);
+    border-radius: 20px;
+    height: 272px;
+    width: 543px;
+    left: 7px;
+    top: 0px;
+    border-radius: 20px;
+
+}
+.watch div span{
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 46px;
+    /* identical to box height, or 130% */
+
+    text-align: right;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+    padding-right: 48px;
+}
+.watch {
+    padding: 39px 48px 0 0 ;
+}
+.frame--nav-button button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #29A0F5;
+    border: 1px solid #29A0F5;
+    border-radius: 20px;
+    height: 72px;
+    width: 234px;
+    left: 0px;
+    top: 0px;
+    border-radius: 20px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    /* identical to box height, or 100% */
+
+    text-align: right;
+    letter-spacing: 0.4px;
+
+    color: #FFFFFF;
+    
+}
+.frame--nav-three {
+    display: flex;
+    justify-content: space-between;
+    gap: 14px;
+    padding-bottom: 40px;
+}
+.frame--nav-button {
+    padding: 20px 48px 50px 11px;
+}
+.frame-media {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 46px;
+    /* identical to box height, or 130% */
+
+
+    color: #1B2534;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.06);
+    border-radius: 20px;
+
+}
+.frame--media-buttons {
+    display: flex;
+    gap: 72px;
+    align-content: flex-start;
+    justify-content: space-between;
+    padding: 10px 40px 48px 40px;
+    height: 84px;
+    width: 400px;
+    left: 40px;
+    top: 140px;
+    border-radius: 0px;
+    
+}
+.frame--media-names {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 40px;
+}
+#media {
+    padding: 39px 89px 0 0;
+}
+.frame--media-buttons span{
+    display: flex;
+    align-items: flex-end;
+}
+.Spaatz {
+    display: flex;
+    padding-top: 60px;
+    
+}
+.spaatz-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1B2534;
+    border-radius: 0px;
+    gap: 30px;
+}
+.spaatz--nav-contacts {
+    height: 443px;
+    width: 269.46875px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+
+}
+.spaatz-logo {
+    padding-top: 52px;
+    padding-left: 30px;
+}
+.spaatz-motto {
+    padding-left: 30px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    /* or 160% */
+
+    letter-spacing: 0.2px;
+    padding-top: 22px;
+    color: #ABABAB;
+}
+.contacts {
+    padding-left: 30px;
+}
+.frame--spaatz-two {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    /* identical to box height, or 111% */
+    gap: 104px;
+    letter-spacing: 0.36px;
+    align-items: center;
+    color: #ABABAB;
+    background: #283343;
+    border-radius: 30px;
+    
+    width: 674px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+.frame--spaatz-two div span {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+
+    letter-spacing: 0.4px;
+
+    color: #FFFFFF;
+}
+.category {
+    padding-right: 70px;
+}
+.explore {
+    padding-left: 70px;
+}

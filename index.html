@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/css/variables.css">
+    <link rel="stylesheet" href="./src/css/normalize/normalize.css">
+    <link rel="stylesheet" href="./src/css/index.css">
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <div class="header-nav">
+                <div class="header--nav-items">
+                    <div class="header-items">
+                        <div class="header-logo">
+                            <svg width="184" height="60" viewBox="0 0 184 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_1_6)">
+                                <path d="M45 0H14C6.26801 0 0 6.26801 0 14V46C0 53.732 6.26801 60 14 60H45C52.732 60 59 53.732 59 46V14C59 6.26801 52.732 0 45 0Z" fill="white"/>
+                                <path d="M45 0H14C6.26801 0 0 6.26801 0 14V46C0 53.732 6.26801 60 14 60H45C52.732 60 59 53.732 59 46V14C59 6.26801 52.732 0 45 0Z" stroke="#29A0F5"/>
+                                <path d="M46.8883 34.0936L21.0937 14.2693C18.0257 11.9114 13.6272 12.4871 11.2693 15.555C8.91143 18.623 9.48708 23.0215 12.5551 25.3794L38.3497 45.2037C41.4177 47.5616 45.8162 46.986 48.174 43.918C50.5319 40.85 49.9563 36.4515 46.8883 34.0936Z" fill="#0083E1"/>
+                                <path d="M42.6431 12.6673H16.6431C12.7771 12.6673 9.64307 15.8013 9.64307 19.6673C9.64307 23.5333 12.7771 26.6673 16.6431 26.6673H42.6431C46.5091 26.6673 49.6431 23.5333 49.6431 19.6673C49.6431 15.8013 46.5091 12.6673 42.6431 12.6673Z" fill="#29A0F5"/>
+                                <path d="M42.6431 32.6673H16.6431C12.7771 32.6673 9.64307 35.8013 9.64307 39.6673C9.64307 43.5333 12.7771 46.6673 16.6431 46.6673H42.6431C46.5091 46.6673 49.6431 43.5333 49.6431 39.6673C49.6431 35.8013 46.5091 32.6673 42.6431 32.6673Z" fill="#29A0F5"/>
+                                <path d="M84.8931 35.0615C84.8931 37.3174 84.0785 39.0947 82.4492 40.3936C80.8314 41.6924 78.5755 42.3418 75.6816 42.3418C73.0156 42.3418 70.6572 41.8405 68.6064 40.8379V35.916C70.2926 36.668 71.7168 37.1978 72.8789 37.5054C74.0524 37.813 75.1234 37.9668 76.0918 37.9668C77.2539 37.9668 78.1426 37.7446 78.7578 37.3003C79.3844 36.856 79.6978 36.1951 79.6978 35.3179C79.6978 34.828 79.561 34.395 79.2876 34.019C79.0142 33.6317 78.6097 33.2614 78.0742 32.9082C77.5501 32.555 76.4735 31.991 74.8442 31.2163C73.3175 30.4985 72.1725 29.8092 71.4092 29.1484C70.6458 28.4876 70.0363 27.7186 69.5806 26.8413C69.1248 25.964 68.897 24.9386 68.897 23.7651C68.897 21.5549 69.6432 19.8174 71.1357 18.5527C72.6396 17.2881 74.7132 16.6558 77.3564 16.6558C78.6553 16.6558 79.8914 16.8096 81.0649 17.1172C82.2498 17.4248 83.486 17.8577 84.7734 18.416L83.0645 22.5347C81.7314 21.9878 80.6263 21.6061 79.749 21.3896C78.8831 21.1732 78.0286 21.0649 77.1855 21.0649C76.1829 21.0649 75.4139 21.2985 74.8784 21.7656C74.3429 22.2327 74.0752 22.8423 74.0752 23.5942C74.0752 24.0614 74.1834 24.4715 74.3999 24.8247C74.6164 25.1665 74.9582 25.5026 75.4253 25.833C75.9038 26.152 77.026 26.7331 78.792 27.5762C81.1276 28.6927 82.7284 29.8149 83.5942 30.9429C84.4601 32.0594 84.8931 33.4323 84.8931 35.0615ZM99.5049 42.3418C97.2604 42.3418 95.5002 41.5272 94.2241 39.8979H93.9507C94.133 41.493 94.2241 42.4159 94.2241 42.6665V50.4082H89.0117V22.8936H93.25L93.9849 25.3716H94.2241C95.4432 23.4803 97.249 22.5347 99.6416 22.5347C101.897 22.5347 103.663 23.4062 104.939 25.1494C106.215 26.8926 106.854 29.3136 106.854 32.4126C106.854 34.452 106.552 36.2236 105.948 37.7275C105.355 39.2314 104.507 40.3765 103.401 41.1626C102.296 41.9487 100.997 42.3418 99.5049 42.3418ZM97.9668 26.7046C96.6794 26.7046 95.7394 27.1034 95.147 27.9009C94.5545 28.687 94.2469 29.9915 94.2241 31.8145V32.3784C94.2241 34.4292 94.526 35.8989 95.1299 36.7876C95.7451 37.6763 96.7135 38.1206 98.0352 38.1206C100.371 38.1206 101.539 36.1951 101.539 32.3442C101.539 30.4644 101.248 29.0573 100.667 28.123C100.097 27.1774 99.1973 26.7046 97.9668 26.7046ZM123.294 42L122.286 39.4023H122.149C121.272 40.5075 120.366 41.2765 119.432 41.7095C118.509 42.131 117.301 42.3418 115.809 42.3418C113.974 42.3418 112.527 41.8177 111.468 40.7695C110.42 39.7214 109.896 38.2288 109.896 36.292C109.896 34.264 110.602 32.7715 112.015 31.8145C113.439 30.846 115.581 30.3105 118.44 30.208L121.756 30.1055V29.2681C121.756 27.3312 120.765 26.3628 118.782 26.3628C117.256 26.3628 115.461 26.8242 113.399 27.7471L111.673 24.2266C113.872 23.0758 116.31 22.5005 118.987 22.5005C121.551 22.5005 123.516 23.0588 124.883 24.1753C126.25 25.2918 126.934 26.9894 126.934 29.2681V42H123.294ZM121.756 33.1475L119.739 33.2158C118.224 33.2614 117.096 33.5348 116.355 34.0361C115.615 34.5374 115.245 35.3008 115.245 36.3262C115.245 37.7959 116.088 38.5308 117.774 38.5308C118.982 38.5308 119.944 38.1833 120.662 37.4883C121.391 36.7933 121.756 35.8704 121.756 34.7197V33.1475ZM144.451 42L143.443 39.4023H143.306C142.429 40.5075 141.523 41.2765 140.589 41.7095C139.666 42.131 138.458 42.3418 136.966 42.3418C135.132 42.3418 133.685 41.8177 132.625 40.7695C131.577 39.7214 131.053 38.2288 131.053 36.292C131.053 34.264 131.759 32.7715 133.172 31.8145C134.596 30.846 136.738 30.3105 139.598 30.208L142.913 30.1055V29.2681C142.913 27.3312 141.922 26.3628 139.939 26.3628C138.413 26.3628 136.618 26.8242 134.556 27.7471L132.83 24.2266C135.029 23.0758 137.467 22.5005 140.145 22.5005C142.708 22.5005 144.673 23.0588 146.041 24.1753C147.408 25.2918 148.091 26.9894 148.091 29.2681V42H144.451ZM142.913 33.1475L140.896 33.2158C139.381 33.2614 138.253 33.5348 137.513 34.0361C136.772 34.5374 136.402 35.3008 136.402 36.3262C136.402 37.7959 137.245 38.5308 138.931 38.5308C140.139 38.5308 141.102 38.1833 141.819 37.4883C142.549 36.7933 142.913 35.8704 142.913 34.7197V33.1475ZM161.524 38.189C162.435 38.189 163.529 37.9896 164.805 37.5908V41.4702C163.506 42.0513 161.911 42.3418 160.02 42.3418C157.935 42.3418 156.414 41.8177 155.457 40.7695C154.511 39.71 154.039 38.1263 154.039 36.0186V26.8071H151.543V24.6025L154.415 22.8594L155.918 18.8262H159.251V22.8936H164.6V26.8071H159.251V36.0186C159.251 36.7591 159.456 37.306 159.866 37.6592C160.288 38.0124 160.84 38.189 161.524 38.189ZM181.98 42H166.89V38.9238L175.743 26.8755H167.42V22.8936H181.673V26.2773L173.06 38.0181H181.98V42Z" fill="#1B2534"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_1_6">
+                                <rect width="184" height="60" fill="white"/>
+                                </clipPath>
+                                </defs>
+                                </svg>                        
+                        </div>
+                        <div class="header-names">
+                            <span id="Web-App">Web App</span>
+                            <span>Mobail App</span>
+                            <span>Pricing</span>
+                            <span>Blog</span>
+                            <span>Utility Pages</span>
+                        </div>
+                        <div class="header-button">
+                            <button>Request A Demo</button>
+                        </div>
+                    </div>
+                    <div class="header-dashboard">
+                        <div class="header--dashboard-words">
+                            <span>All Your Business Analytics In</span>
+                            <span>A Single <span id="dashboard">Dashboard</span></span>
+                        </div>
+                        <div class="header--dashboard-button">
+                            <button>
+                                Get Started <svg width="30" height="20" viewBox="0 0 30 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M27.2052 10H1M16.0769 1L29 10L16.0769 19V1Z" stroke="#29A0F5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="dashboard">
+        <div class="wrapper">
+            <div class="dashboard-nav">
+                <div class="dashboard-info">
+                    <div>
+                        <span id="Perfect">Perfect Approach Towards <sapn id="dashboard">Software</sapn></span>
+                    </div>
+                    <div id="words">
+                        <span>It’s a social collaboration mail software platform that employees really love to use, with rich personalized interface helps to promote your product and connect with good buyer.</span>
+                    </div>
+                    <div class="dashboard--Increase-Workflow">
+                        <div >
+                            <svg width="95" height="96" viewBox="0 0 95 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 20.0469C0 9.00118 8.95431 0.046875 20 0.046875H75C86.0457 0.046875 95 9.00118 95 20.0469V75.0469C95 86.0926 86.0457 95.0469 75 95.0469H20C8.9543 95.0469 0 86.0926 0 75.0469V20.0469Z" fill="#FED8FF"/>
+                                <g clip-path="url(#clip0_1_36)">
+                                <path d="M58.9032 27.0469H35.1554C33.6497 27.0469 32.2716 27.8924 31.5895 29.2347L27.0971 38.0747C26.4227 39.4018 26.541 40.9937 27.4043 42.2065L44.0041 65.5278C45.5869 67.7515 48.8828 67.7718 50.4929 65.5678L67.4438 42.3638C68.3879 41.0715 68.4708 39.3409 67.6546 37.9643L62.3439 29.0069C61.6235 27.7919 60.3157 27.0469 58.9032 27.0469Z" stroke="#E074E3" stroke-width="2"/>
+                                <path d="M27 40.0469H68" stroke="#E074E3" stroke-width="2"/>
+                                <path d="M37.085 40.5948L45.3346 64.3864C45.964 66.2015 48.5414 66.1717 49.1285 64.3425L56.7516 40.5948M47.2974 27.0469L58.5293 28.4954C59.7976 28.6589 60.5887 29.9544 60.1549 31.1574L56.7516 40.5948L47.2974 27.0469ZM47.2974 27.0469L35.4546 28.5106C34.1911 28.6668 33.3932 29.9479 33.8103 31.1507L37.085 40.5948L47.2974 27.0469ZM47.2974 27.0469L37.085 40.5948L47.2974 27.0469ZM47.2974 27.0469L56.7516 40.5948L47.2974 27.0469Z" stroke="#E074E3" stroke-width="2"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_1_36">
+                                <rect width="45" height="45" fill="white" transform="translate(25 25.0469)"/>
+                                </clipPath>
+                                </defs>
+                                </svg>                                
+                        </div>
+                        <div class="Secured-Structure" >
+                            <span>Increase Workflow</span>
+                            <p>Abilities taken within a multiple platforms</p>
+                        </div>
+                    </div>
+                    <div class="dashboard--Secured-Structure">
+                        <div >
+                            <svg width="95" height="96" viewBox="0 0 95 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 20.0469C0 9.00118 8.95431 0.046875 20 0.046875H75C86.0457 0.046875 95 9.00118 95 20.0469V75.0469C95 86.0926 86.0457 95.0469 75 95.0469H20C8.9543 95.0469 0 86.0926 0 75.0469V20.0469Z" fill="#C4F5C9"/>
+                                <g clip-path="url(#clip0_1_46)">
+                                <path d="M56 49.0469V34.904C56 33.0854 55.1571 31.3412 53.6569 30.0553C52.1566 28.7693 50.1217 28.0469 48 28.0469C45.8783 28.0469 43.8434 28.7693 42.3431 30.0553C40.8428 31.3412 40 33.0854 40 34.904V49.0469" stroke="#5EBA67" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M58.5 44.0469H37.5C35.0147 44.0469 33 45.7851 33 47.9293V62.1645C33 64.3087 35.0147 66.0469 37.5 66.0469H58.5C60.9853 66.0469 63 64.3087 63 62.1645V47.9293C63 45.7851 60.9853 44.0469 58.5 44.0469Z" stroke="#5EBA67" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_1_46">
+                                <rect width="34" height="42" fill="white" transform="translate(31 26.0469)"/>
+                                </clipPath>
+                                </defs>
+                                </svg>                                                           
+                        </div>
+                        <div class="Increase-Workflow" >
+                            <span>Secured Structure</span>
+                            <p>Purpose oriented structures protect thedata</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="dashboard-photo">
+                    <img src="./assets/png/IMAGE (1).png" alt="dashboard-photo">
+                </div>
+            </div>
+        </div>
+    </div> 
+    <div class="frame">
+        <div class="wrapper">
+            <div class="frame-nav">
+                <div class="frame--nav-one">
+                    <div class="Capture">
+                        <span>Capture & Convert Excellent Leads <span id="dashboard">More Easily.</span></span>
+                        <p>You can control the inbox like Turn Off Notifications, Choose When You Check In, Don’t Default to Email, Compose mail and reply the mail you want.</p>
+                    </div>
+                    <div>
+                        <img src="./assets/png/Frame.png" alt="photo">
+                    </div>
+                </div>
+                <div class="frame--nav-two">
+                    <div class="importand-tools">
+                        <div class="Importand--Tools">
+                            <span>Importand</span>
+                            <span>Tools</span>
+                        </div>
+                        <div class="importand--tools-icon">
+                            <span>
+                                <svg width="44" height="45" viewBox="0 0 44 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_1_83)">
+                                    <path d="M0.62085 10.6364C0.62085 5.11363 5.098 0.636475 10.6209 0.636475H33.872C39.3949 0.636475 43.872 5.11363 43.872 10.6365V33.8876C43.872 39.4105 39.3949 43.8876 33.872 43.8876H10.6208C5.098 43.8876 0.62085 39.4105 0.62085 33.8876V10.6364Z" fill="#001E36"/>
+                                    <path d="M14.1782 21.3515H15.3237C16.3944 21.3515 17.1955 21.1419 17.7271 20.7226C18.2586 20.2959 18.5244 19.6782 18.5244 18.8696C18.5244 18.0535 18.2998 17.4508 17.8506 17.0615C17.4089 16.6722 16.7126 16.4775 15.7617 16.4775H14.1782V21.3515ZM22.0396 18.7461C22.0396 20.513 21.4855 21.8644 20.3774 22.8003C19.2769 23.7361 17.7083 24.2041 15.6719 24.2041H14.1782V30.0439H10.6968V13.625H15.9414C17.9329 13.625 19.4453 14.0555 20.4785 14.9165C21.5192 15.77 22.0396 17.0465 22.0396 18.7461ZM33.6294 26.3154C33.6294 27.6032 33.1802 28.584 32.2817 29.2578C31.3908 29.9316 30.0544 30.2685 28.2725 30.2685C27.359 30.2685 26.5804 30.2049 25.9365 30.0776C25.2926 29.9578 24.6899 29.7781 24.1284 29.5385V26.7085C24.7648 27.008 25.4798 27.2588 26.2734 27.4609C27.0745 27.6631 27.7783 27.7641 28.3848 27.7641C29.6276 27.7641 30.249 27.4048 30.249 26.686C30.249 26.4165 30.1667 26.1994 30.002 26.0346C29.8372 25.8624 29.5527 25.6715 29.1484 25.4619C28.7441 25.2448 28.2051 24.994 27.5312 24.7094C26.5654 24.3052 25.8542 23.9308 25.3975 23.5864C24.9482 23.242 24.6188 22.8489 24.4092 22.4072C24.207 21.958 24.106 21.4077 24.106 20.7563C24.106 19.6408 24.5365 18.7798 25.3975 18.1733C26.266 17.5594 27.4938 17.2524 29.0811 17.2524C30.5934 17.2524 32.0646 17.5818 33.4946 18.2407L32.4614 20.7114C31.8325 20.4419 31.2448 20.221 30.6982 20.0488C30.1517 19.8766 29.5939 19.7905 29.0249 19.7905C28.0142 19.7905 27.5088 20.0638 27.5088 20.6103C27.5088 20.9173 27.6698 21.1831 27.9917 21.4077C28.3211 21.6323 29.0361 21.9655 30.1367 22.4072C31.1175 22.804 31.8363 23.1746 32.293 23.519C32.7497 23.8634 33.0866 24.2602 33.3037 24.7094C33.5208 25.1587 33.6294 25.694 33.6294 26.3154Z" fill="#30A8FF"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_1_83">
+                                    <rect width="44" height="44" fill="white" transform="translate(0 0.015625)"/>
+                                    </clipPath>
+                                    </defs>
+                                    </svg>                                    
+                            </span>
+                            <span>
+                                <svg width="53" height="45" viewBox="0 0 53 45" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g clip-path="url(#clip0_1_89)">
+                                    <path d="M4.12793 10.6364C4.12793 5.11363 8.60508 0.636475 14.1279 0.636475H37.3791C42.902 0.636475 47.3791 5.11363 47.3791 10.6365V33.8876C47.3791 39.4105 42.902 43.8876 37.3791 43.8876H14.1279C8.60508 43.8876 4.12793 39.4105 4.12793 33.8876V10.6364Z" fill="#001E36"/>
+                                    <path d="M52.1849 4.64111H0.924194V43.0866H52.1849V4.64111Z" fill="url(#pattern0)"/>
+                                    </g>
+                                    <defs>
+                                    <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                    <use xlink:href="#image0_1_89" transform="scale(0.00195313 0.00260417)"/>
+                                    </pattern>
+                                    <clipPath id="clip0_1_89">
+                                    <rect width="53" height="44" fill="white" transform="translate(0 0.015625)"/>
+                                    </clipPath>
+                                    <image id="image0_1_89" width="512" height="384" xlink:href="data:image/png;base64,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"/>
+                                    </defs>
+                                    </svg>                                    
+                            </span>
+                            <span>
+                                <svg width="44" height="45" viewBox="0 0 44 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_1_86)">
+                                    <path d="M0.62085 10.6364C0.62085 5.11363 5.098 0.636475 10.6209 0.636475H33.872C39.3949 0.636475 43.872 5.11363 43.872 10.6365V33.8876C43.872 39.4105 39.3949 43.8876 33.872 43.8876H10.6208C5.098 43.8876 0.62085 39.4105 0.62085 33.8876V10.6364Z" fill="#470137"/>
+                                    <path d="M22.3398 30.0156H18.8828L15.5625 24.6152L12.2422 30.0156H9L13.7363 22.6523L9.30273 15.7383H12.6426L15.7188 20.875L18.7363 15.7383H21.998L17.5156 22.8183L22.3398 30.0156ZM27.3594 30.2109C26.0768 30.2109 25.0677 29.7129 24.332 28.7168C23.6029 27.7207 23.2383 26.3405 23.2383 24.5761C23.2383 22.7858 23.6094 21.3926 24.3516 20.3965C25.1003 19.3939 26.1289 18.8926 27.4375 18.8926C28.8112 18.8926 29.8594 19.4264 30.582 20.4941H30.6797C30.5299 19.6803 30.4551 18.9544 30.4551 18.3164V14.8203H33.4434V30.0156H31.1582L30.582 28.5996H30.4551C29.778 29.6738 28.7461 30.2109 27.3594 30.2109ZM28.4043 27.8379C29.166 27.8379 29.7227 27.6165 30.0742 27.1738C30.4323 26.7311 30.6276 25.9791 30.6602 24.9179V24.5957C30.6602 23.4238 30.4779 22.584 30.1133 22.0761C29.7552 21.5683 29.1693 21.3144 28.3555 21.3144C27.6914 21.3144 27.1738 21.5976 26.8027 22.164C26.4382 22.7239 26.2559 23.541 26.2559 24.6152C26.2559 25.6894 26.4414 26.4967 26.8125 27.0371C27.1836 27.5709 27.7142 27.8379 28.4043 27.8379Z" fill="#FF61F6"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_1_86">
+                                    <rect width="44" height="44" fill="white" transform="translate(0 0.015625)"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="frame--support">
+                        <div class="frame-support">
+                            <span>Support <br>for</span>
+                            <span>Responsive</span>
+                            <span>device</span>
+                        </div>
+                        <div id="support-for">
+                            <img src="./assets/png/IMAGEsup.png" alt="">
+                        </div>
+                    </div>
+                    <div class="monitor-growth">
+                        <img src="./assets/png/IMAGE90.png" alt="">
+                    </div>
+                </div>
+                <div class="frame--nav-three">
+                    <div class="frame--nav-global">
+                        <div>
+                            <img src="./assets/png/IMAGEgl.png" alt="">
+                        </div>
+                        <div class="watch">
+                            <div>
+                                <span>Watch</span>
+                                <span>And Learn</span>
+                            </div>
+                            <div class="frame--nav-button">
+                                <button>Explore App<svg width="30" height="21" viewBox="0 0 30 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M27.2052 10.0156H1M16.0769 1.01562L29 10.0156L16.0769 19.0156V1.01562Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="frame-media">
+                        <div class="frame--media-names">
+                            <span id="media">Image, Video, Audio</span>
+                            <span>Gif, support</span>
+                        </div>
+                        <div class="frame--media-buttons">
+                            <span>
+                                <svg width="46" height="45" viewBox="0 0 46 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_1_105)">
+                                <path d="M0 10.0156C0 4.49278 4.47715 0.015625 10 0.015625H35.2696C40.7924 0.015625 45.2696 4.49277 45.2696 10.0156V33.2668C45.2696 38.7896 40.7924 43.2668 35.2696 43.2668H10C4.47716 43.2668 0 38.7896 0 33.2668V10.0156Z" fill="#FFD772"/>
+                                <path d="M30 14.0156H15C13.3431 14.0156 12 15.3588 12 17.0156V26.0156C12 27.6725 13.3431 29.0156 15 29.0156H30C31.6569 29.0156 33 27.6725 33 26.0156V17.0156C33 15.3588 31.6569 14.0156 30 14.0156Z" fill="#C59419"/>
+                                <path d="M19.9198 22.204L17.3292 25.384C16.797 26.0373 17.2618 27.0156 18.1045 27.0156H30C30.5523 27.0156 31 26.5679 31 26.0156V25.3013V23.401C31 23.1529 30.9078 22.9138 30.7414 22.7299L28.1655 19.8841C27.7528 19.4282 27.0304 19.4492 26.6449 19.9283L23.9757 23.2458C23.5903 23.7248 22.8679 23.7458 22.4552 23.29L21.4365 22.1645C21.0255 21.7104 20.3066 21.7292 19.9198 22.204Z" fill="#FFD772"/>
+                                <path d="M18 20.0156C19.1046 20.0156 20 19.1202 20 18.0156C20 16.9111 19.1046 16.0156 18 16.0156C16.8954 16.0156 16 16.9111 16 18.0156C16 19.1202 16.8954 20.0156 18 20.0156Z" fill="#FFD772"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_1_105">
+                                <rect width="46" height="44" fill="white" transform="translate(0 0.015625)"/>
+                                </clipPath>
+                                </defs>
+                                </svg>
+                            </span>
+                            <span>
+                                <svg width="47" height="45" viewBox="0 0 47 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_1_117)">
+                                <path d="M0.806641 10.0156C0.806641 4.49278 5.28379 0.015625 10.8066 0.015625H36.0762C41.5991 0.015625 46.0762 4.49277 46.0762 10.0156V33.2668C46.0762 38.7896 41.5991 43.2668 36.0762 43.2668H10.8066C5.2838 43.2668 0.806641 38.7896 0.806641 33.2668V10.0156Z" fill="#F68DFF"/>
+                                <path d="M26.7974 10.0342C26.9489 10.0635 27.0915 10.127 27.2139 10.2196C27.3367 10.3112 27.4361 10.4297 27.5043 10.5655C27.5725 10.7014 27.6075 10.8509 27.6067 11.0024V14.2993L19.4261 16.2685L19.418 16.2708C19.1323 16.3414 18.9479 16.566 18.9479 16.8427V24.8872C18.9456 25.2662 18.8225 25.635 18.5959 25.9418C18.3693 26.2487 18.0505 26.4782 17.6843 26.5982L16.8401 26.8995L16.8254 26.9044C16.6043 26.9777 16.3726 27.0152 16.1392 27.0156C15.6932 27.0149 15.2589 26.876 14.898 26.6187C14.6178 26.422 14.39 26.162 14.2337 25.8606C14.0774 25.5592 13.9973 25.2254 14.0001 24.8872C14.0001 24.0558 14.4979 23.3549 15.2668 23.1026L17.2769 22.4196L17.2815 22.4177C17.5424 22.3315 17.711 22.1107 17.711 21.8549V13.2791C17.7083 13.0074 17.7976 12.7425 17.965 12.5261C18.1324 12.3096 18.3682 12.1539 18.6356 12.0835L26.3403 10.0503C26.4893 10.0104 26.6458 10.0048 26.7974 10.0342Z" fill="#C038CC"/>
+                                <path d="M32.2505 16.0342C32.4021 16.0635 32.5447 16.127 32.667 16.2196C32.7898 16.3112 32.8893 16.4297 32.9574 16.5655C33.0256 16.7014 33.0606 16.8509 33.0598 17.0024V20.2993L24.8792 22.2685L24.8711 22.2708C24.5854 22.3414 24.401 22.566 24.401 22.8427V30.8872C24.3987 31.2662 24.2756 31.635 24.049 31.9418C23.8224 32.2487 23.5036 32.4782 23.1374 32.5982L22.2932 32.8995L22.2785 32.9044C22.0574 32.9777 21.8257 33.0152 21.5924 33.0156C21.1464 33.0149 20.712 32.876 20.3512 32.6187C20.0709 32.422 19.8431 32.162 19.6868 31.8606C19.5305 31.5592 19.4504 31.2254 19.4532 30.8872C19.4532 30.0558 19.9511 29.3549 20.7199 29.1026L22.73 28.4196L22.7346 28.4177C22.9955 28.3315 23.1641 28.1107 23.1641 27.8549V19.2791C23.1614 19.0074 23.2507 18.7425 23.4181 18.5261C23.5855 18.3096 23.8214 18.1539 24.0887 18.0835L31.7934 16.0503C31.9425 16.0103 32.0989 16.0048 32.2505 16.0342Z" fill="#C038CC"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_1_117">
+                                <rect width="47" height="44" fill="white" transform="translate(0 0.015625)"/>
+                                </clipPath>
+                                </defs>
+                                </svg>
+                            </span>
+                            <span>
+                                <svg width="46" height="45" viewBox="0 0 46 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_1_110)">
+                                    <path d="M0.280029 10.0156C0.280029 4.49278 4.75718 0.015625 10.28 0.015625H35.5496C41.0724 0.015625 45.5496 4.49277 45.5496 10.0156V33.2668C45.5496 38.7896 41.0724 43.2668 35.5496 43.2668H10.28C4.75719 43.2668 0.280029 38.7896 0.280029 33.2668V10.0156Z" fill="#88A2FF"/>
+                                    <path d="M25 14.0156H12C10.8954 14.0156 10 14.9111 10 16.0156V26.0156C10 27.1202 10.8954 28.0156 12 28.0156H25C26.1046 28.0156 27 27.1202 27 26.0156V16.0156C27 14.9111 26.1046 14.0156 25 14.0156Z" fill="#365BDD"/>
+                                    <path d="M28.998 22.3013C28.4894 21.9009 28.4894 21.1303 28.998 20.7299L34.6314 16.2947C35.2874 15.7783 36.25 16.2455 36.25 17.0804V25.9508C36.25 26.7857 35.2874 27.2529 34.6314 26.7365L28.998 22.3013Z" fill="#365BDD"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_1_110">
+                                    <rect width="46" height="44" fill="white" transform="translate(0 0.015625)"/>
+                                    </clipPath>
+                                    </defs>
+                                    </svg>                                    
+                            </span>
+                            <span>
+                                <svg width="46" height="45" viewBox="0 0 46 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_1_114)">
+                                    <path d="M0.333252 10.0156C0.333252 4.49278 4.81041 0.015625 10.3333 0.015625H35.6028C41.1257 0.015625 45.6028 4.49277 45.6028 10.0156V33.2668C45.6028 38.7896 41.1257 43.2668 35.6028 43.2668H10.3333C4.81041 43.2668 0.333252 38.7896 0.333252 33.2668V10.0156Z" fill="#AEEA7F"/>
+                                    <path d="M15.8518 21.4033H19.8167V26.5849C19.1741 26.7946 18.568 26.9404 17.9983 27.0224C17.4332 27.109 16.8544 27.1523 16.262 27.1523C14.7535 27.1523 13.6005 26.7103 12.803 25.8261C12.01 24.9375 11.6135 23.6637 11.6135 22.0049C11.6135 20.3916 12.0738 19.1338 12.9944 18.2314C13.9195 17.3291 15.2001 16.8779 16.8362 16.8779C17.8616 16.8779 18.8505 17.083 19.803 17.4931L19.0989 19.1885C18.3697 18.8239 17.6109 18.6416 16.8225 18.6416C15.9065 18.6416 15.1728 18.9492 14.6213 19.5644C14.0699 20.1797 13.7942 21.0068 13.7942 22.0459C13.7942 23.1305 14.0152 23.9599 14.4573 24.5342C14.9039 25.1038 15.551 25.3886 16.3987 25.3886C16.8407 25.3886 17.2896 25.3431 17.7454 25.2519V23.167H15.8518V21.4033ZM22.2024 27.0156V17.0215H24.3215V27.0156H22.2024ZM28.9221 27.0156H26.8372V17.0215H32.5657V18.7578H28.9221V21.3349H32.3127V23.0644H28.9221V27.0156Z" fill="#577E39"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_1_114">
+                                    <rect width="46" height="44" fill="white" transform="translate(0 0.015625)"/>
+                                    </clipPath>
+                                    </defs>
+                                    </svg>                                    
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Spaatz">
+        <div class="wrapper">
+            <div class="spaatz-nav">
+                <div class="spaatz--nav-contacts">
+                    <div class="spaatz-logo">
+                        <svg width="184" height="61" viewBox="0 0 184 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_1_342)">
+                            <path d="M45 0.53125H14C6.26801 0.53125 0 6.79926 0 14.5312V46.5312C0 54.2632 6.26801 60.5312 14 60.5312H45C52.732 60.5312 59 54.2632 59 46.5312V14.5312C59 6.79926 52.732 0.53125 45 0.53125Z" fill="white"/>
+                            <path d="M45 0.53125H14C6.26801 0.53125 0 6.79926 0 14.5312V46.5312C0 54.2632 6.26801 60.5312 14 60.5312H45C52.732 60.5312 59 54.2632 59 46.5312V14.5312C59 6.79926 52.732 0.53125 45 0.53125Z" stroke="#29A0F5"/>
+                            <path d="M47.2452 34.9574L21.4506 15.1331C18.3826 12.7752 13.9841 13.3508 11.6262 16.4188C9.26833 19.4868 9.84398 23.8853 12.912 26.2432L38.7066 46.0675C41.7746 48.4254 46.1731 47.8497 48.531 44.7818C50.8888 41.7138 50.3132 37.3153 47.2452 34.9574Z" fill="#0083E1"/>
+                            <path d="M43 13.5312H17C13.134 13.5312 10 16.6653 10 20.5312C10 24.3972 13.134 27.5312 17 27.5312H43C46.866 27.5312 50 24.3972 50 20.5312C50 16.6653 46.866 13.5312 43 13.5312Z" fill="#29A0F5"/>
+                            <path d="M43 33.5312H17C13.134 33.5312 10 36.6653 10 40.5312C10 44.3972 13.134 47.5312 17 47.5312H43C46.866 47.5312 50 44.3972 50 40.5312C50 36.6653 46.866 33.5312 43 33.5312Z" fill="#29A0F5"/>
+                            <path d="M84.8931 35.5927C84.8931 37.8486 84.0785 39.6259 82.4492 40.9248C80.8314 42.2236 78.5755 42.873 75.6816 42.873C73.0156 42.873 70.6572 42.3717 68.6064 41.3691V36.4472C70.2926 37.1992 71.7168 37.729 72.8789 38.0366C74.0524 38.3442 75.1234 38.498 76.0918 38.498C77.2539 38.498 78.1426 38.2758 78.7578 37.8315C79.3844 37.3872 79.6978 36.7263 79.6978 35.8491C79.6978 35.3592 79.561 34.9262 79.2876 34.5502C79.0142 34.1629 78.6097 33.7926 78.0742 33.4394C77.5501 33.0862 76.4735 32.5222 74.8442 31.7475C73.3175 31.0297 72.1725 30.3404 71.4092 29.6796C70.6458 29.0188 70.0363 28.2498 69.5806 27.3725C69.1248 26.4952 68.897 25.4698 68.897 24.2963C68.897 22.0861 69.6432 20.3486 71.1357 19.0839C72.6396 17.8193 74.7132 17.187 77.3564 17.187C78.6553 17.187 79.8914 17.3408 81.0649 17.6484C82.2498 17.956 83.486 18.3889 84.7734 18.9472L83.0645 23.0659C81.7314 22.519 80.6263 22.1373 79.749 21.9208C78.8831 21.7044 78.0286 21.5961 77.1855 21.5961C76.1829 21.5961 75.4139 21.8297 74.8784 22.2968C74.3429 22.7639 74.0752 23.3735 74.0752 24.1254C74.0752 24.5926 74.1834 25.0027 74.3999 25.3559C74.6164 25.6977 74.9582 26.0338 75.4253 26.3642C75.9038 26.6832 77.026 27.2643 78.792 28.1074C81.1276 29.2239 82.7284 30.3461 83.5942 31.4741C84.4601 32.5906 84.8931 33.9635 84.8931 35.5927ZM99.5049 42.873C97.2604 42.873 95.5002 42.0584 94.2241 40.4291H93.9507C94.133 42.0242 94.2241 42.9471 94.2241 43.1977V50.9394H89.0117V23.4248H93.25L93.9849 25.9028H94.2241C95.4432 24.0115 97.249 23.0659 99.6416 23.0659C101.897 23.0659 103.663 23.9374 104.939 25.6806C106.215 27.4238 106.854 29.8448 106.854 32.9438C106.854 34.9832 106.552 36.7548 105.948 38.2587C105.355 39.7626 104.507 40.9077 103.401 41.6938C102.296 42.4799 100.997 42.873 99.5049 42.873ZM97.9668 27.2358C96.6794 27.2358 95.7394 27.6346 95.147 28.4321C94.5545 29.2182 94.2469 30.5227 94.2241 32.3457V32.9096C94.2241 34.9604 94.526 36.4301 95.1299 37.3188C95.7451 38.2075 96.7135 38.6518 98.0352 38.6518C100.371 38.6518 101.539 36.7263 101.539 32.8754C101.539 30.9956 101.248 29.5885 100.667 28.6542C100.097 27.7086 99.1973 27.2358 97.9668 27.2358ZM123.294 42.5312L122.286 39.9335H122.149C121.272 41.0387 120.366 41.8077 119.432 42.2407C118.509 42.6622 117.301 42.873 115.809 42.873C113.974 42.873 112.527 42.3489 111.468 41.3007C110.42 40.2526 109.896 38.76 109.896 36.8232C109.896 34.7952 110.602 33.3027 112.015 32.3457C113.439 31.3772 115.581 30.8417 118.44 30.7392L121.756 30.6367V29.7993C121.756 27.8624 120.765 26.894 118.782 26.894C117.256 26.894 115.461 27.3554 113.399 28.2783L111.673 24.7578C113.872 23.607 116.31 23.0317 118.987 23.0317C121.551 23.0317 123.516 23.59 124.883 24.7065C126.25 25.823 126.934 27.5206 126.934 29.7993V42.5312H123.294ZM121.756 33.6787L119.739 33.747C118.224 33.7926 117.096 34.066 116.355 34.5673C115.615 35.0686 115.245 35.832 115.245 36.8574C115.245 38.3271 116.088 39.062 117.774 39.062C118.982 39.062 119.944 38.7145 120.662 38.0195C121.391 37.3245 121.756 36.4016 121.756 35.2509V33.6787ZM144.451 42.5312L143.443 39.9335H143.306C142.429 41.0387 141.523 41.8077 140.589 42.2407C139.666 42.6622 138.458 42.873 136.966 42.873C135.132 42.873 133.685 42.3489 132.625 41.3007C131.577 40.2526 131.053 38.76 131.053 36.8232C131.053 34.7952 131.759 33.3027 133.172 32.3457C134.596 31.3772 136.738 30.8417 139.598 30.7392L142.913 30.6367V29.7993C142.913 27.8624 141.922 26.894 139.939 26.894C138.413 26.894 136.618 27.3554 134.556 28.2783L132.83 24.7578C135.029 23.607 137.467 23.0317 140.145 23.0317C142.708 23.0317 144.673 23.59 146.041 24.7065C147.408 25.823 148.091 27.5206 148.091 29.7993V42.5312H144.451ZM142.913 33.6787L140.896 33.747C139.381 33.7926 138.253 34.066 137.513 34.5673C136.772 35.0686 136.402 35.832 136.402 36.8574C136.402 38.3271 137.245 39.062 138.931 39.062C140.139 39.062 141.102 38.7145 141.819 38.0195C142.549 37.3245 142.913 36.4016 142.913 35.2509V33.6787ZM161.524 38.7202C162.435 38.7202 163.529 38.5208 164.805 38.122V42.0014C163.506 42.5825 161.911 42.873 160.02 42.873C157.935 42.873 156.414 42.3489 155.457 41.3007C154.511 40.2412 154.039 38.6575 154.039 36.5498V27.3383H151.543V25.1337L154.415 23.3906L155.918 19.3574H159.251V23.4248H164.6V27.3383H159.251V36.5498C159.251 37.2903 159.456 37.8372 159.866 38.1904C160.288 38.5436 160.84 38.7202 161.524 38.7202ZM181.98 42.5312H166.89V39.455L175.743 27.4067H167.42V23.4248H181.673V26.8085L173.06 38.5493H181.98V42.5312Z" fill="white"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_1_342">
+                            <rect width="184" height="60" fill="white" transform="translate(0 0.53125)"/>
+                            </clipPath>
+                            </defs>
+                            </svg>                            
+                    </div>
+                    <div class="spaatz-motto">
+                        <span>Spaatz is a professional yet creative dashboard for organize your business.</span>
+                    </div>
+                    <div class="contacts">
+                        <svg width="270" height="122" viewBox="0 0 270 122" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_1_332)">
+                            <path d="M9.18359 112.906L9.67578 109.672H6.54688V107.562C6.54688 106.648 6.96875 105.805 8.375 105.805H9.81641V103.027C9.81641 103.027 8.51562 102.781 7.28516 102.781C4.71875 102.781 3.03125 104.363 3.03125 107.176V109.672H0.148438V112.906H3.03125V120.781H6.54688V112.906H9.18359Z" fill="white"/>
+                            </g>
+                            <g clip-path="url(#clip1_1_332)">
+                            <path d="M91.6406 119.531V109.02H88.3711V119.531H91.6406ZM89.9883 107.613C91.043 107.613 91.8867 106.734 91.8867 105.68C91.8867 104.66 91.043 103.816 89.9883 103.816C88.9688 103.816 88.125 104.66 88.125 105.68C88.125 106.734 88.9688 107.613 89.9883 107.613ZM103.84 119.531H103.875V113.766C103.875 110.953 103.242 108.773 99.9375 108.773C98.3555 108.773 97.3008 109.652 96.8438 110.461H96.8086V109.02H93.6797V119.531H96.9492V114.328C96.9492 112.957 97.1953 111.656 98.8828 111.656C100.57 111.656 100.606 113.203 100.606 114.434V119.531H103.84Z" fill="white"/>
+                            </g>
+                            <path d="M142.5 107.139C140.125 107.139 138.232 109.068 138.232 111.406C138.232 113.781 140.125 115.674 142.5 115.674C144.838 115.674 146.768 113.781 146.768 111.406C146.768 109.068 144.838 107.139 142.5 107.139ZM142.5 114.189C140.979 114.189 139.717 112.965 139.717 111.406C139.717 109.885 140.941 108.66 142.5 108.66C144.021 108.66 145.246 109.885 145.246 111.406C145.246 112.965 144.021 114.189 142.5 114.189ZM147.918 106.99C147.918 106.434 147.473 105.988 146.916 105.988C146.359 105.988 145.914 106.434 145.914 106.99C145.914 107.547 146.359 107.992 146.916 107.992C147.473 107.992 147.918 107.547 147.918 106.99ZM150.738 107.992C150.664 106.656 150.367 105.469 149.402 104.504C148.438 103.539 147.25 103.242 145.914 103.168C144.541 103.094 140.422 103.094 139.049 103.168C137.713 103.242 136.562 103.539 135.561 104.504C134.596 105.469 134.299 106.656 134.225 107.992C134.15 109.365 134.15 113.484 134.225 114.857C134.299 116.193 134.596 117.344 135.561 118.346C136.562 119.311 137.713 119.607 139.049 119.682C140.422 119.756 144.541 119.756 145.914 119.682C147.25 119.607 148.438 119.311 149.402 118.346C150.367 117.344 150.664 116.193 150.738 114.857C150.812 113.484 150.812 109.365 150.738 107.992ZM148.957 116.305C148.697 117.047 148.104 117.604 147.398 117.9C146.285 118.346 143.688 118.234 142.5 118.234C141.275 118.234 138.678 118.346 137.602 117.9C136.859 117.604 136.303 117.047 136.006 116.305C135.561 115.229 135.672 112.631 135.672 111.406C135.672 110.219 135.561 107.621 136.006 106.508C136.303 105.803 136.859 105.246 137.602 104.949C138.678 104.504 141.275 104.615 142.5 104.615C143.688 104.615 146.285 104.504 147.398 104.949C148.104 105.209 148.66 105.803 148.957 106.508C149.402 107.621 149.291 110.219 149.291 111.406C149.291 112.631 149.402 115.229 148.957 116.305Z" fill="white"/>
+                            <g clip-path="url(#clip2_1_332)">
+                            <path d="M56.1367 108.125C56.8398 107.598 57.4727 106.965 57.9648 106.227C57.332 106.508 56.5938 106.719 55.8555 106.789C56.6289 106.332 57.1914 105.629 57.4727 104.75C56.7695 105.172 55.9609 105.488 55.1523 105.664C54.4492 104.926 53.5 104.504 52.4453 104.504C50.4062 104.504 48.7539 106.156 48.7539 108.195C48.7539 108.477 48.7891 108.758 48.8594 109.039C45.8008 108.863 43.0586 107.387 41.2305 105.172C40.9141 105.699 40.7383 106.332 40.7383 107.035C40.7383 108.301 41.3711 109.426 42.3906 110.094C41.793 110.059 41.1953 109.918 40.7031 109.637V109.672C40.7031 111.465 41.9688 112.941 43.6562 113.293C43.375 113.363 43.0234 113.434 42.707 113.434C42.4609 113.434 42.25 113.398 42.0039 113.363C42.4609 114.84 43.832 115.895 45.4492 115.93C44.1836 116.914 42.6016 117.512 40.8789 117.512C40.5625 117.512 40.2812 117.477 40 117.441C41.6172 118.496 43.5508 119.094 45.6602 119.094C52.4453 119.094 56.1367 113.504 56.1367 108.617C56.1367 108.441 56.1367 108.301 56.1367 108.125Z" fill="white"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_1_332">
+                            <rect width="10" height="19" fill="white" transform="translate(0 102.531)"/>
+                            </clipPath>
+                            <clipPath id="clip1_1_332">
+                            <rect width="16" height="16" fill="white" transform="translate(88 103.531)"/>
+                            </clipPath>
+                            <clipPath id="clip2_1_332">
+                            <rect width="18" height="16" fill="white" transform="translate(40 103.531)"/>
+                            </clipPath>
+                            </defs>
+                            </svg>                            
+                    </div>
+                </div>
+                <div class="frame--spaatz-two">
+                    <div class="explore">
+                        <span>Explore</span>
+                        <p>Web App</p>
+                        <p>Mobail App</p>
+                        <p>Blog</p>
+                        <p>Contact</p>
+                        <p>Demo</p>
+                    </div>
+                    <div class="utility">
+                        <span>Utility</span>
+                        <p>Licenses</p>
+                        <p>Style Guide</p>
+                        <p>Change Log</p>
+                        <p>Protected</p>
+                        <p>Not Found</p>
+                    </div>
+                    <div class="category">
+                        <span>Category</span>
+                        <p>Lifestyle</p>
+                        <p>Productivity</p>
+                        <p>Social Media</p>
+                        <p>Entertain</p>
+                        <p>Creative</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="./assets/png/Framevid.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>   
+</body>
+</html>
